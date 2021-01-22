@@ -1,0 +1,39 @@
+// Package shellinterface provides component object model interface
+// identifiers for the Windows shell.
+package shellinterface
+
+import (
+	"github.com/google/uuid"
+)
+
+var (
+	// ShellLink is the component object model identifier of the ShellLink
+	// interface (IID_IShellLink).
+	//
+	//	{000214F9-0000-0000-C000-000000000046}
+	ShellLink = uuid.UUID{0x00, 0x02, 0x14, 0xF9, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}
+
+	// PersistFile is the component object model identifier of the file
+	// persistence interface (IPersistFile).
+	//
+	//	{0000010b-0000-0000-C000-000000000046}
+	PersistFile = uuid.UUID{0x00, 0x00, 0x01, 0x0b, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}
+
+	// PersistStream is the component object model identifier of the stream
+	// persistence interface (IPersistStream).
+	//
+	//	{00000109-0000-0000-C000-000000000046}
+	PersistStream = uuid.UUID{0x00, 0x00, 0x01, 0x09, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}
+
+	// SequentialStream is the component object model identifier of the
+	// sequential stream interface (ISequentialStream).
+	//
+	//	{0C733A30-2A1C-11CE-ADE5-00AA0044773D}
+	SequentialStream = uuid.UUID{0x0C, 0x73, 0x3A, 0x30, 0x2A, 0x1C, 0x11, 0xCE, 0xAD, 0xE5, 0x00, 0xAA, 0x00, 0x44, 0x77, 0x3D}
+
+	// Stream is the component object model identifier of the stream
+	// interface (IStream).
+	//
+	//	{0000000C-0000-0000-C000-000000000046}
+	Stream = uuid.UUID{0x00, 0x00, 0x00, 0x0C, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}
+)
