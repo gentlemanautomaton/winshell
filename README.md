@@ -1,4 +1,4 @@
-winshell [![GoDoc](https://godoc.org/github.com/gentlemanautomaton/winshell?status.svg)](https://godoc.org/github.com/gentlemanautomaton/winshell)
+winshell [![Go Reference](https://pkg.go.dev/badge/github.com/gentlemanautomaton/winshell.svg)](https://pkg.go.dev/github.com/gentlemanautomaton/winshell)
 ====
 
 The winshell library facilitates windows shell management and interaction.
