@@ -27,6 +27,8 @@ const (
 //
 // When COM calls one of these virtual functions, the method is invoked
 // exactly as it would be from Go code as T.Method().
+//
+// See: https://golang.org/ref/spec#Method_expressions
 var streamBufferVTable = IStreamVtbl{
 	ISequentialStreamVtbl: ISequentialStreamVtbl{
 		IUnknownVtbl: ole.IUnknownVtbl{
